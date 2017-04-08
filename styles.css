@@ -1,0 +1,250 @@
+<<<<<<< HEAD
+body{
+	margin-left:0px;
+	margin-right:0px;
+	
+	margin-bottom: 0px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.navbar{
+	height:125px;
+	padding-bottom:5px;
+	margin-left:0px;
+
+}
+.button{
+	text-decoration:none;
+	font-size:1.30rem;
+	color:#f26500;
+	font-family:"Raleway",Helvetica,Arial,sans-serif;
+	padding:10px;
+	float:left;
+	margin-top:50px;
+
+}
+
+.logo{
+	float:left;
+	clear:left;
+	height:125px;
+	width:125px;
+	background-image:url("homeless.PNG");
+	background-size:100% 100%;
+	margin-left:35%;
+	display:inline-block;
+}
+
+.firstbutton{
+	margin-left:60px;
+}
+
+.donate{
+	height:100px;
+	width:200px;
+	border:2px solid black;
+	border-radius:6px;
+	background-color:#f26500;
+	float:right;
+	font-size:30px;	
+	font-family:"Raleway",Helvetica,Arial,sans-serif;
+	color:white;
+	margin-right:10%;
+	margin-top:15px;
+	
+}
+.donatebutton{
+	text-decoration:none;
+	display:inline-block;
+	text-align:center;
+	font-size:30px;	
+	font-family:"Raleway",Helvetica,Arial,sans-serif;
+	color:white;
+	margin-top:35px;
+	margin-left:25%;
+}
+
+.sidebar {
+	position: fixed;
+	right: 30px;
+	top: 150px;
+	width: 200px;
+	border: 3px solid grey;
+	border-radius: 5%;
+	transition: all 0.8s;
+
+}
+
+.sidebar:hover {
+	box-shadow: 5px 10px grey; /*FADE THIS SHADOW*/
+
+}
+
+.article-link {
+	margin: 10px auto;
+	width: 90%;
+	border: 1px solid grey;
+	border-radius: 5%;
+	text-align: center;
+	transition: all 1.2s;
+}
+
+.article-link:hover {
+	box-shadow: 2px 4px grey;
+}
+
+.sidebar a{
+	text-decoration: none;
+}
+
+.article-pic{
+	width: 180px;
+	height: 150px;
+	background-position: center;
+	background-size: cover;
+	border-radius: 5%;
+}
+
+.article-1-pic {
+	background-image: url("https://img.rt.com/files/2016.03/original/56f52214c46188a2438b4587.jpg");
+}
+.article-2-pic {
+	background-image: url("http://www.socialsolutions.com/wp-content/uploads/2016/06/bigstock-Homeless-Senior-Man-Sleeping-O-76657106.jpg");
+}
+.article-3-pic {
+	background-image: url("http://www.coalitionforthehomeless.org/wp-content/uploads/2014/03/ProvenSolutions7.jpg");
+}
+
+article {
+	width: 70%;
+	margin: 10px;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+footer {
+
+	/*position: absolute;*/
+	bottom: 0px;
+	background-color: #000;
+	width: 100vw;
+	height: 50px;
+	margin:0 auto;
+	border: 2px solid orange;
+	margin-bottom:0px;
+
+	/*position: absolute;*/
+	background-color: #000;
+	width: 100vw;
+	height: 50px;
+	clear:both;
+
+}
+
+.footer-nav {
+	display: flex;
+	flex-direction: row-reverse;
+	font-family: verdana, sans-serif; 
+	font-size: 0.8em;
+	list-style-type: none;
+
+}
+
+.footer-nav__item {
+	display: inline-block;
+	margin: 3px 15px;
+	padding: 0 8px;
+}
+
+.footer-nav__item a {
+	color: #eb9800;
+}
+
+
+
+.heroimage{
+	height:600px;
+	width:100%;
+	margin-top:15px;
+	margin-left:0px;
+	background-image:url("homelesshero.jpg");
+	background-size:cover;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+}
+.footer-nav__item a:hover {
+	color: #ffbd46;
+
+}
+.articlescontainer{
+	height:500px;
+	margin-top:40px;
+	
+
+}
+.article1, .article2, .article3{
+	height:495px;
+	width:400px;
+	display:inline-block;
+	
+	border-radius:10px;
+}
+.article1{
+	float:left;
+}
+.article3{
+	float:right;
+}
+.article2{
+	margin:0 auto;
+	display:block;
+}
+.artpic1, .artpic2, .artpic3{
+	height:200px;
+	width:100%;
+	background-color:green;
+	background-size:cover;
+	border:2px solid black;
+	border-radius:10px;
+
+}
+.artpic1{
+	background-image:url("article2pic.jpg");
+}
+.artpic2{
+	background-image:url("article1pic.jpg");
+}
+.artpic3{
+	background-image:url("http://www.coalitionforthehomeless.org/wp-content/uploads/2014/03/ProvenSolutions7.jpg");
+}
+.arttext1, .arttext2, .arttext3{
+	height:200px;
+	width:100%;
+	border:2px solid black;
+	border-radius:10px;
+	padding:10px 30px 10px 30px;
+	margin-top:0px;
+
+	
+}
+.articlespacer{
+	height:300px;
+	text-align:center;
+	padding-top:130px;
+}
+.articlelink{
+	text-decoration:none;
+	color:black;
+}
